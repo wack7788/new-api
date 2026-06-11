@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/QuantumNous/new-api/common"
-	"github.com/QuantumNous/new-api/i18n"
-	"github.com/QuantumNous/new-api/logger"
-	"github.com/QuantumNous/new-api/model"
-	"github.com/QuantumNous/new-api/setting/operation_setting"
+	"github.com/wack7788/new-api/common"
+	"github.com/wack7788/new-api/i18n"
+	"github.com/wack7788/new-api/logger"
+	"github.com/wack7788/new-api/model"
+	"github.com/wack7788/new-api/setting/operation_setting"
 
 	"github.com/gin-gonic/gin"
 )

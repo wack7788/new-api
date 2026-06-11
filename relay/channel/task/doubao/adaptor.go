@@ -8,15 +8,15 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/QuantumNous/new-api/common"
+	"github.com/wack7788/new-api/common"
 
-	"github.com/QuantumNous/new-api/constant"
-	"github.com/QuantumNous/new-api/dto"
-	"github.com/QuantumNous/new-api/model"
-	"github.com/QuantumNous/new-api/relay/channel"
-	"github.com/QuantumNous/new-api/relay/channel/task/taskcommon"
-	relaycommon "github.com/QuantumNous/new-api/relay/common"
-	"github.com/QuantumNous/new-api/service"
+	"github.com/wack7788/new-api/constant"
+	"github.com/wack7788/new-api/dto"
+	"github.com/wack7788/new-api/model"
+	"github.com/wack7788/new-api/relay/channel"
+	"github.com/wack7788/new-api/relay/channel/task/taskcommon"
+	relaycommon "github.com/wack7788/new-api/relay/common"
+	"github.com/wack7788/new-api/service"
 
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"

@@ -10,11 +10,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/QuantumNous/new-api/common"
-	"github.com/QuantumNous/new-api/constant"
-	"github.com/QuantumNous/new-api/model"
-	"github.com/QuantumNous/new-api/relay/channel/codex"
-	"github.com/QuantumNous/new-api/service"
+	"github.com/wack7788/new-api/common"
+	"github.com/wack7788/new-api/constant"
+	"github.com/wack7788/new-api/model"
+	"github.com/wack7788/new-api/relay/channel/codex"
+	"github.com/wack7788/new-api/service"
 
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"

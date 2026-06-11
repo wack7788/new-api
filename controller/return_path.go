@@ -3,8 +3,8 @@ package controller
 import (
 	"strings"
 
-	"github.com/QuantumNous/new-api/common"
-	"github.com/QuantumNous/new-api/setting/system_setting"
+	"github.com/wack7788/new-api/common"
+	"github.com/wack7788/new-api/setting/system_setting"
 )
 
 func paymentReturnPath(suffix string) string {

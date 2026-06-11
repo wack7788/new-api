@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/QuantumNous/new-api/common"
-	"github.com/QuantumNous/new-api/types"
+	"github.com/wack7788/new-api/common"
+	"github.com/wack7788/new-api/types"
 	"github.com/samber/lo"
 
 	"github.com/gin-gonic/gin"

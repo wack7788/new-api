@@ -8,13 +8,13 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/QuantumNous/new-api/common"
-	"github.com/QuantumNous/new-api/constant"
-	"github.com/QuantumNous/new-api/dto"
-	"github.com/QuantumNous/new-api/logger"
-	relaycommon "github.com/QuantumNous/new-api/relay/common"
-	constant2 "github.com/QuantumNous/new-api/relay/constant"
-	"github.com/QuantumNous/new-api/types"
+	"github.com/wack7788/new-api/common"
+	"github.com/wack7788/new-api/constant"
+	"github.com/wack7788/new-api/dto"
+	"github.com/wack7788/new-api/logger"
+	relaycommon "github.com/wack7788/new-api/relay/common"
+	constant2 "github.com/wack7788/new-api/relay/constant"
+	"github.com/wack7788/new-api/types"
 
 	"github.com/gin-gonic/gin"
 )

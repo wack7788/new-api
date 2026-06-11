@@ -11,20 +11,20 @@ import (
 	"strings"
 	"time"
 
-	"github.com/QuantumNous/new-api/common"
-	"github.com/QuantumNous/new-api/constant"
-	"github.com/QuantumNous/new-api/controller"
-	"github.com/QuantumNous/new-api/i18n"
-	"github.com/QuantumNous/new-api/logger"
-	"github.com/QuantumNous/new-api/middleware"
-	"github.com/QuantumNous/new-api/model"
-	"github.com/QuantumNous/new-api/oauth"
-	perfmetrics "github.com/QuantumNous/new-api/pkg/perf_metrics"
-	"github.com/QuantumNous/new-api/relay"
-	"github.com/QuantumNous/new-api/router"
-	"github.com/QuantumNous/new-api/service"
-	_ "github.com/QuantumNous/new-api/setting/performance_setting"
-	"github.com/QuantumNous/new-api/setting/ratio_setting"
+	"github.com/wack7788/new-api/common"
+	"github.com/wack7788/new-api/constant"
+	"github.com/wack7788/new-api/controller"
+	"github.com/wack7788/new-api/i18n"
+	"github.com/wack7788/new-api/logger"
+	"github.com/wack7788/new-api/middleware"
+	"github.com/wack7788/new-api/model"
+	"github.com/wack7788/new-api/oauth"
+	perfmetrics "github.com/wack7788/new-api/pkg/perf_metrics"
+	"github.com/wack7788/new-api/relay"
+	"github.com/wack7788/new-api/router"
+	"github.com/wack7788/new-api/service"
+	_ "github.com/wack7788/new-api/setting/performance_setting"
+	"github.com/wack7788/new-api/setting/ratio_setting"
 
 	"github.com/bytedance/gopkg/util/gopool"
 	"github.com/gin-contrib/sessions"
@@ -164,7 +164,7 @@ func main() {
 		common.SysLog(fmt.Sprintf("panic detected: %v", err))
 		c.JSON(http.StatusInternalServerError, gin.H{
 			"error": gin.H{
-				"message": fmt.Sprintf("Panic detected, error: %v. Please submit a issue here: https://github.com/Calcium-Ion/new-api", err),
+				"message": fmt.Sprintf("Panic detected, error: %v. Please submit a issue here: https://github.com/wack7788/new-api", err),
 				"type":    "new_api_panic",
 			},
 		})

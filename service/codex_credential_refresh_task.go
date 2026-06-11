@@ -8,10 +8,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/QuantumNous/new-api/common"
-	"github.com/QuantumNous/new-api/constant"
-	"github.com/QuantumNous/new-api/logger"
-	"github.com/QuantumNous/new-api/model"
+	"github.com/wack7788/new-api/common"
+	"github.com/wack7788/new-api/constant"
+	"github.com/wack7788/new-api/logger"
+	"github.com/wack7788/new-api/model"
 
 	"github.com/bytedance/gopkg/util/gopool"
 )

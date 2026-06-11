@@ -9,11 +9,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/QuantumNous/new-api/common"
-	"github.com/QuantumNous/new-api/constant"
-	"github.com/QuantumNous/new-api/dto"
-	"github.com/QuantumNous/new-api/logger"
-	"github.com/QuantumNous/new-api/types"
+	"github.com/wack7788/new-api/common"
+	"github.com/wack7788/new-api/constant"
+	"github.com/wack7788/new-api/dto"
+	"github.com/wack7788/new-api/logger"
+	"github.com/wack7788/new-api/types"
 
 	"github.com/samber/lo"
 	"gorm.io/gorm"

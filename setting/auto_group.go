@@ -1,7 +1,7 @@
 package setting
 
 import (
-	"github.com/QuantumNous/new-api/common"
+	"github.com/wack7788/new-api/common"
 )
 
 var autoGroups = []string{
